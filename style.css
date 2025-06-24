@@ -1,0 +1,431 @@
+/*login*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url(imagenes/fondo\ postre.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.formulario{
+    position: relative;
+    width: 400px;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgb(255, 255, 255, .6);
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px white;
+}
+
+.formulario h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid white;
+    font-size: 2.3rem;
+    color: white;
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .username{
+    position: relative;
+    border-bottom: 2px solid white;
+    margin: 30px 0;
+}
+
+.username{
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid white;
+}
+
+.username label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 16px;
+    pointer-events: none;
+    transition: .6s;
+    font-weight: bold;
+}
+
+input:focus ~label,
+input:valid ~label{
+    top: -5px;
+}
+
+.username input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: -35px 0 5px;
+    color: white;
+}
+
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid rgb(255, 255, 255, .6);
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    height: 45px;
+    transition: .4s;
+    border-radius: 40px;
+    margin: 20px 0;
+    color: white;
+}
+
+.btn:hover{
+    opacity: .9;
+    background: white;
+    color: black;
+}
+
+.registrarse{
+    margin: 5px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.registrarse a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.registrarse a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*registro*/
+
+.formulario1{
+    position: relative;
+    width: 400px;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgb(255, 255, 255, .6);
+    height: 565px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px white;
+}
+
+.formulario1 h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid white;
+    font-size: 2.3rem;
+    color: white;
+}
+
+.formulario1 form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .username1{
+    position: relative;
+    border-bottom: 2px solid white;
+    margin: 30px 0;
+}
+
+.username1{
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid white;
+}
+
+.username1 label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 16px;
+    pointer-events: none;
+    transition: .6s;
+    font-weight: bold;
+}
+
+input:focus ~label,
+input:valid ~label{
+    top: -5px;
+}
+
+.username1 input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: -35px 0 5px;
+    color: white;
+}
+
+.btn-registrarse{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid rgb(255, 255, 255, .6);
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    height: 45px;
+    transition: .4s;
+    border-radius: 40px;
+    margin: 20px 0;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.btn-registrarse:hover{
+    opacity: .9;
+    background: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*registrar producto*/
+.formulario2{
+    position: relative;
+    width: 400px;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgb(255, 255, 255, .6);
+    height: 650px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px white;
+}
+
+.formulario2 h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid white;
+    font-size: 2.3rem;
+    color: white;
+}
+
+.formulario2 form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .producto{
+    position: relative;
+    border-bottom: 2px solid white;
+    margin: 30px 0;
+}
+
+.producto{
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid white;
+}
+
+.producto label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 16px;
+    pointer-events: none;
+    transition: .6s;
+    font-weight: bold;
+}
+
+input:focus ~label,
+input:valid ~label{
+    top: -5px;
+}
+
+.producto input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: -35px 0 5px;
+    color: white;
+}
+
+.btn-registrarse{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid rgb(255, 255, 255, .6);
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    height: 45px;
+    transition: .4s;
+    border-radius: 40px;
+    margin: 20px 0;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.btn-registrarse:hover{
+    opacity: .9;
+    background: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+/*restablecer contraseña
+
+
+.formulario2{
+    position: relative;
+    width: 400px;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgb(255, 255, 255, .6);
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px white;
+}
+
+.formulario2 h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid white;
+    font-size: 2.3rem;
+    color: white;
+}
+
+.formulario2 form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .username2{
+    position: relative;
+    border-bottom: 2px solid white;
+    margin: 30px 0;
+}
+
+.username2{
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid white;
+}
+
+.username2 label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 16px;
+    pointer-events: none;
+    transition: .6s;
+    font-weight: bold;
+}
+
+input:focus ~label,
+input:valid ~label{
+    top: -5px;
+}
+
+
+.username2 input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: -35px 0 5px;
+    color: white;
+}
+
+
+.btn-2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: 2px solid rgb(255, 255, 255, .6);
+    cursor: pointer;
+    outline: none;
+    transition: .4s;
+    border-radius: 40px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    padding: 15px 70px;
+}
+
+.btn-2:hover{
+    opacity: .9;
+    background: white;
+    color: black;
+}
+*/

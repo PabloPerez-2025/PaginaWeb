@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Times new Roman', sans-serif;
+    background-size: cover;
+    background-color: rgb(248, 224, 190);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 32px;
+    background-color: rgb(0, 0, 0);
+    border: black;
+}
+
+.menu{ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    border: 2px solid white;
+    color: white;
+    display: block;
+    transition: .4s;
+    font-weight: 600;
+}
+
+.menu .nombre label{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+#menu{
+    display: none;
+}
+
+.logo{
+    width: 65px;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+section{
+    margin-top: 100px;
+}
+
+.product-content{
+    width: 100%;
+    height: 300px;
+}
+
+.product-txt h1{
+    font-family: 'Times new Roman', sans-serif;
+    color: #030301;
+    font-size: 50px;
+    line-height: 80px;
+    margin-bottom: 20px;
+    padding: 0 15px 0 200px;
+}
+
+.product-txt p{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 35px;
+    padding: 0 15px 0 250px;
+}
+
+.product-content{
+    display: flex;
+}
+
+.product-txt{
+    width: 50%;
+}
+
+.product-img{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.product-img img{
+    width: 300px;
+    height: 300px;
+}
